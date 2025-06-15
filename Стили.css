@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #d2f8ffd6;
+}
+
+.article-card_cover {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.article-card_cover img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+h1, h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+#любил {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4690a2;
+    line-height: normal;
+}
+
+#октябрь {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4660a2;
+    line-height: normal;
+}
+
+#трактор {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7146a2;
+    line-height: normal;
+}
+
+#молодость {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9446a2;
+    line-height: normal;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: square;
+}
+
+div {
+    border: 2px solid #67dbf8;
+    border-radius: 10px;
+    padding: 3px;
+    width: fit-content;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Georgia', serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li {
+    font-size: 20px;
+}
+
+a:hover {
+    color: #0c8ecb;
+    text-decoration: underline;
+}
